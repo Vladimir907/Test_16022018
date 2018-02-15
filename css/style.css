@@ -1,0 +1,42 @@
+
+@font-face {
+ font-family:FontAwesome;
+ font-weight:400;
+ font-style:normal;
+ src:url(/font/font-awesome.af7ae505a9eed503f8b8e6982036873e.woff2) format("woff2"),url(/font/font-awesome.fee66e712a8a08eef5805a46892932ad.woff) format("woff"),url(/font/font-awesome.b06871f281fee6b241d60582ae9369b9.ttf) format("truetype")
+}
+
+
+@font-face {
+ font-family:Material Icons;
+ font-style:normal;
+ font-weight:400;
+ src:local("Material Icons"),local("MaterialIcons-Regular"),url(/font/material.570eb83859dc23dd0eec423a49e147fe.woff2) format("woff2"),url(/font/material.012cf6a10129e2275d79d6adac7f3b02.woff) format("woff"),url(/font/material.a37b0c01c0baf1888ca812cc0508f6e2.ttf) format("truetype")
+}
+
+
+body 											{font-family:'Arial', sans-serif; background:url("/image/background.png"); background-size:200px 120px;}
+
+.container										{position:absolute; top:0; bottom:0; left:0; right:0; width:312px; height:295px; margin:auto; background:rgba(255, 255, 255, 0.35);}
+.container .wrap_form 							{position:absolute; top:0; bottom:0; left:0; right:0; width:279px; height:260px; margin:auto; background:rgba(179,179,179,1);}
+.container .wrap_form .title 					{margin:20px 0px 10px; font-size:18px; font-weight:bold; line-height:26px; text-align:center; text-transform:uppercase;}
+
+form.form_login 								{}
+form.form_login input.fld 						{width:100%; height:34px; padding:5px 10px 5px 30px; border:1px solid #575757; font-size:14px; box-sizing:border-box;}
+form.form_login input.fld::placeholder 			{font-size:10px; color:#000;}
+form.form_login input.btn 						{padding:11px 60px; border:none; background:#ff000f; border-radius:4px; font-size:14px; font-weight:bold; text-transform:uppercase; color:#ffffff;}
+form.form_login .fline 							{position:relative; width:220px; margin:0 auto 10px;}
+form.form_login .fline:after 					{position:absolute; top:24px; left:8px; width:14px; font-size:14px; text-align:center; color:#444444;}
+form.form_login .fline.flogin:after 			{content:"\F007"; font-family:FontAwesome;}
+form.form_login .fline.fpass:after 				{content:"vpn_key"; font-family:Material Icons;}
+form.form_login .fline .iline 					{height:15px; line-height:13px; text-align:right;}
+form.form_login .fline .iline .error 			{display:none; font-size:9px; color:#AE0202;}
+form.form_login .wrap_btn 						{margin-top:20px; text-align:center;}
+form.form_login .wrap_forgot 					{text-align:center;}
+form.form_login .wrap_forgot .forgot 			{font-size:10px; color:#000;}
+
+.container .welcom								{width:100%; height:100%; font-size:18px; font-weight:bold; line-height:26px; color:#ffffff; text-align:center;}
+.container .welcom:before						{content:""; display:inline-block; height:100%; vertical-align:middle;}
+.container .welcom p							{display:inline-block; vertical-align:middle;}
+
+
